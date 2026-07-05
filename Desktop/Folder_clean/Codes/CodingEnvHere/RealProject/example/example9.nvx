@@ -1,0 +1,12 @@
+#![0xN0P]
+from "std" import "nv";
+import "net/http"
+
+var url = http.url("https://example.org")
+var [data, result] = url.get()
+
+nv.echoln(result)
+nv.echoln(data.status)
+nv.echoln(data.statusCode)
+nv.echoln(data.ok)
+nv.echoln(data.body)

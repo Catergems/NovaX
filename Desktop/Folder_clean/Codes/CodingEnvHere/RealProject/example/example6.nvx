@@ -1,0 +1,26 @@
+#![0xN0P]
+from "std" import "nv";
+
+//array
+let alf = [
+    "Heloo",
+    "Helllo"
+]
+
+//Dictnary
+let aef = [
+    "name" : "Hi",
+    "age": 1000
+]
+
+for i,v in alf {
+    nv.echof("{i}.{v}")
+}
+
+for _,v in aef {
+    nv.echof("{v}")
+}
+
+for i = 1..100 {
+    nv.println(i)
+}

@@ -1,0 +1,12 @@
+// Hello
+/*
+Multi Line
+*/
+
+import std/nv;
+
+fun main() {
+    var digit = 5 //mutable
+    nv.echoln(digit) //echoln create new line
+    nv.echof("{digit}")
+}
