@@ -1,4 +1,0 @@
-build/
-*.exe
-nimcache/
-*.nim.cfg

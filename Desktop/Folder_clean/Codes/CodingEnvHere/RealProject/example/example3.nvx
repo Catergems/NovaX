@@ -1,7 +1,0 @@
-from "std" import "nv";
-
-fun main() {
-    nv.echo("Name: ")
-    let a = nv.read() //Read output but doesnt create new line but readln create new line
-    nv.echof("{a}") //Interplote 
-}
